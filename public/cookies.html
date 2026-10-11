@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie Policy — Suvarna Enterprise ERP Solutions Pvt. Ltd.</title>
+  <meta name="robots" content="index, follow">
+  <style>
+    :root {
+      --bg: #0b1c24;
+      --surface: #0f2733;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #1e3a4a;
+      --gold: #fbbf24;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, monospace, sans-serif;
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+    .container { max-width: 900px; margin: 0 auto; background: var(--surface); padding: 40px; border-radius: 8px; border: 1px solid var(--border); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+    h1 { font-size: 30px; font-weight: 800; color: #fff; margin-bottom: 8px; }
+    .updated { font-size: 14px; color: var(--gold); margin-bottom: 32px; font-family: monospace; }
+    h2 { font-size: 20px; font-weight: 700; color: var(--accent); margin-top: 32px; margin-bottom: 12px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    p, ul { margin-bottom: 16px; color: #cbd5e1; font-size: 15px; }
+    ul { padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .nav-bar { margin-bottom: 24px; display: flex; gap: 16px; font-size: 14px; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 13px; }
+    th, td { padding: 12px; border: 1px solid var(--border); text-align: left; }
+    th { background: #081e28; color: var(--gold); }
+    .cookie-btn { background: #0284c7; color: #fff; padding: 10px 20px; border-radius: 4px; font-weight: bold; border: none; cursor: pointer; display: inline-block; margin-top: 10px; }
+    .cookie-btn:hover { background: #0396e3; }
+    .contact-box { background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.2); padding: 20px; border-radius: 6px; margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav-bar">
+      <a href="/">← Return to TallyPrime Application</a>
+      <span>|</span>
+      <a href="/privacy.html">Privacy Policy</a>
+      <span>|</span>
+      <a href="/terms.html">Terms & Conditions</a>
+      <span>|</span>
+      <a href="/refund.html">Refund Policy</a>
+    </div>
+
+    <h1>Cookie Policy</h1>
+    <div class="updated">Effective Date: October 4, 2026 &nbsp;·&nbsp; Entity: Suvarna Enterprise ERP Solutions Pvt. Ltd.</div>
+
+    <p>This Cookie Policy explains how <strong>Suvarna Enterprise ERP Solutions Pvt. Ltd.</strong> uses cookies and client storage mechanisms in <strong>TallyPrime ERP Core Replica</strong>. It complies with the ePrivacy Directive, GDPR, and India DPDPA regulations.</p>
+
+    <h2>1. What Are Cookies and Client Storage?</h2>
+    <p>Cookies and LocalStorage objects are secure data records stored directly within your web browser to preserve system security, maintain user sessions, and remember operational ERP views between reloads.</p>
+
+    <h2>2. Complete Inventory of Storage Items</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Key / Cookie</th>
+          <th>Classification</th>
+          <th>Duration</th>
+          <th>Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>site_cookie_consent_v1</code></td>
+          <td>Strictly Necessary</td>
+          <td>1 Year</td>
+          <td>Records user opt-in/opt-out preferences for privacy banner.</td>
+        </tr>
+        <tr>
+          <td><code>tally_auth_session</code></td>
+          <td>Strictly Necessary</td>
+          <td>Session (8 hrs)</td>
+          <td>Preserves authenticated cryptographic token (Bearer sess_...) to prevent unauthorized session hijacking.</td>
+        </tr>
+        <tr>
+          <td><code>tally_store_v1</code></td>
+          <td>Strictly Necessary</td>
+          <td>Persistent</td>
+          <td>Local double-entry database cache maintaining chart of accounts and vouchers in browser offline storage.</td>
+        </tr>
+        <tr>
+          <td><code>tally_user_preferences</code></td>
+          <td>Functional</td>
+          <td>6 Months</td>
+          <td>Stores UI date context (F2), active voucher mode, and drilldown depth.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>3. Zero Unsolicited Third-Party Tracking</h2>
+    <p>TallyPrime ERP does <strong>not</strong> deploy third-party advertising pixels, cross-site trackers, or data brokers (e.g., Meta Pixel, TikTok Pixel, Google Ads). All operational telemetry is self-contained within your local or enterprise network perimeter.</p>
+
+    <h2>4. How to Manage or Revoke Your Preferences</h2>
+    <p>You can change your consent preferences at any time by clicking the button below or using your browser's cookie settings:</p>
+    <button class="cookie-btn" onclick="if(window.opener && window.opener.openCookiePreferences) { window.opener.openCookiePreferences(); window.close(); } else { localStorage.removeItem('site_cookie_consent_v1'); alert('Cookie preferences reset. Please refresh your application window.'); }">
+      Manage Cookie Preferences
+    </button>
+
+    <div class="contact-box">
+      <p><strong>Questions Regarding Cookies?</strong></p>
+      <p>Contact our Data Governance Office: <a href="mailto:privacy@tallyprime.internal">privacy@tallyprime.internal</a></p>
+    </div>
+  </div>
+</body>
+</html>

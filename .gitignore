@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Production Build Output
+dist/
+
+# Scratch & Temporary Testing Scripts
+scratch/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Operating System Metadata
+.DS_Store
+Thumbs.db
+
+# Unrelated Sub-Projects
+google-review-system/
+omniroute-keys/
+WhatsApp Automation/
