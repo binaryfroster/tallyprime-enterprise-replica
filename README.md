@@ -3,6 +3,7 @@
 > **A High-Fidelity, Production-Grade Web & Core Engine Replica of TallyPrime Gold**  
 > Developed for the **Binary Froster Portfolio** — Featuring mathematical double-entry accounting invariants, Indian statutory tax processing (GST, TDS, E-Way Bill, E-Invoice), Ministry of Corporate Affairs (MCA) immutable cryptographic audit trail, and an OWASP API Top 10-hardened Port 9000 XML/REST gateway.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-tally--omega--lake.vercel.app-00C7B7?style=for-the-badge&logo=vercel)](https://tally-omega-lake.vercel.app)
 [![Tests Passing](https://img.shields.io/badge/tests-79%20passed-success?style=for-the-badge&logo=node.js)](tests/)
 [![Security Grade](https://img.shields.io/badge/Security%20Grade-A%2B%20(100%25)-blue?style=for-the-badge&logo=shield)](SECURITY_COMPLIANCE_REPORT.md)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict%200%20Errors-3178C6?style=for-the-badge&logo=typescript)](tsconfig.json)
@@ -142,6 +143,19 @@ Audited and certified under the **Nishant Chahar 20-Point Web Security & Legal C
 - **Backend & Gateway**: Node.js, Express 5, TSX runtime
 - **Cryptographic Engine**: Native Node.js `crypto` (AES-256-GCM, PBKDF2, SHA-256)
 - **Deployment Ready**: Cloudflare Pages (`_headers`), Vercel (`vercel.json`), or standalone Node.js daemon
+
+---
+
+## 🌐 Live Production Deployment
+
+- **Production URL**: [https://tally-omega-lake.vercel.app](https://tally-omega-lake.vercel.app)
+- **Preview Deployment**: [https://tally-3da3oktt6-binaryfrosters-projects.vercel.app](https://tally-3da3oktt6-binaryfrosters-projects.vercel.app)
+- **Deployment Platform**: Vercel Edge Network
+- **Legal & Compliance Endpoints**:
+  - [Privacy Policy](https://tally-omega-lake.vercel.app/privacy.html)
+  - [Terms of Service](https://tally-omega-lake.vercel.app/terms.html)
+  - [Cookie Policy](https://tally-omega-lake.vercel.app/cookies.html)
+  - [Refund & Cancellation Policy](https://tally-omega-lake.vercel.app/refund.html)
 
 ---
 
